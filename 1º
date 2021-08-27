@@ -23,7 +23,7 @@ public class main {
    Delta = Math.pow(B, 2) - (4 * A * C);
 
    if (Delta < 0) {
-       System.out.println("Não possui raízes reais");
+       System.out.println("Não tem raízes reais");
    }else {
        X1 = (-B + Math.sqrt(Delta))/(2 * A);
        X2 = (-B - Math.sqrt(Delta))/(2 * A);
